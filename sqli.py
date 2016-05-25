@@ -1,7 +1,13 @@
 import urllib as cybers
 import sys
 import os
-os.system('cls')
+import platform
+
+if platform.system()=="Windows":
+    os.system('cls')
+else:
+    os.system('clear')
+
 header="""
 ____ _              ___      _                     _____                      
 /__   \ |__   ___    / __\   _| |__   ___ _ __ ___  /__   \___  __ _ _ __ ___  
